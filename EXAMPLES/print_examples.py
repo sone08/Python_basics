@@ -4,7 +4,7 @@ hit_count = 5
 average = 3.4563892382
 
 print(city, temperature, hit_count, average)
-print()
+print()  # \n only (blank line)
 
 print(city, end=' ')  # Print space instead of newline at the end
 print(temperature)
@@ -15,5 +15,5 @@ print(city, temperature, hit_count, average, sep=", ")
 print()
 
 # Item separator is empty string
-print(city, temperature, hit_count, average, sep="")
+print(city, temperature, hit_count, average, sep="|")
 print()
