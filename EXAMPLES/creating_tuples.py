@@ -4,5 +4,5 @@ print(person, "\n")
 print(person[0], person[1], "\n")
 
 first_name, last_name, product, dob = person  # unpack iterable to variables
-print(first_name, last_name, "\n")
+print(first_name, last_name, product, "\n")
 print(f"{len(person) = }\n")
