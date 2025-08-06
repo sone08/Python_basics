@@ -1,4 +1,4 @@
-def hello(target="world"):
+def hello(target="default"):
     print(f"Hello, {target}")
 
 hello("Mom")

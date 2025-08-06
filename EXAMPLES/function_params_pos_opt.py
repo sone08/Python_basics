@@ -5,5 +5,6 @@ def search_files(search_term, *file_paths):
                 if search_term in raw_line:
                     print(raw_line.rstrip()) # remove \n
 
-search_files("bird", "../DATA/alice.txt", "../DATA/parrot.txt")
+search_files("bird", "usr/bin/python3/Users/onemac/Pyhton_basics/20250721JPMC-PM/DATA/alice.txt", 
+             "usr/bin/python3/Users/onemac/Pyhton_basics/20250721JPMC-PM/DATA/parrot.txt")
 

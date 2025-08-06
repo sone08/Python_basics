@@ -1,7 +1,7 @@
 import logging
 
 logging.basicConfig(
-    filename='../LOGS/simple.log',
+    filename='/Users/onemac/Pyhton_basics/20250721JPMC-PM/LOGS/simple.log',
     level=logging.WARNING,
 )
 

@@ -8,3 +8,5 @@ print(f"{rectangle = }")
 
 square = geometry.square_area(7.9)
 print(f"{square = }")
+
+print(f"{sys.prefix= })")

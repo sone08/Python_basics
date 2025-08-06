@@ -18,7 +18,7 @@ print(f"{set1 - set2 = }")  # difference -- Remove items in right set from left 
 print(f"{set2 - set1 = }")
 print()
 
-with open('../DATA/breakfast.txt') as breakfast_in:
+with open('/Users/onemac/Pyhton_basics/20250721JPMC-PM/DATA/breakfast.txt') as breakfast_in:
     food = breakfast_in.read().splitlines()
 
 print(f"{food = }")

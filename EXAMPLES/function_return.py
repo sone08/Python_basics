@@ -16,3 +16,8 @@ def double(x):
 d = double(10)
 print(f"{d = }")
 
+def doit(a,b):
+    print(f"{a = }, {b = }")
+
+doit(10, 20)
+doit('spam', 'eggs')

@@ -1,6 +1,6 @@
 counts = {}  # create new empty dict
 
-with open("../DATA/breakfast.txt") as breakfast_in:
+with open("/Users/onemac/Pyhton_basics/20250721JPMC-PM/DATA/breakfast.txt") as breakfast_in:
     for line in breakfast_in:
         breakfast_item = line.rstrip()
         if breakfast_item in counts:   # check to see if current item in dict

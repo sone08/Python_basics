@@ -3,7 +3,7 @@ Script to read knight data from a file and display it.
 """
 from pprint import pprint
 
-FILE_PATH = "../DATA/knights.txt"
+FILE_PATH = "/Users/onemac/Pyhton_basics/20250721JPMC-PM/DATA/knights.txt"
 
 def main():  # named 'main' by *convention*
     """

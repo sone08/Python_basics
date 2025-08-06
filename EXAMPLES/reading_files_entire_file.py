@@ -1,4 +1,4 @@
-FILE_PATH = '../DATA/mary.txt'
+FILE_PATH = '/Users/onemac/Pyhton_basics/20250721JPMC-PM/DATA/mary.txt'
 
 with open(FILE_PATH) as mary_in:
     contents = mary_in.read()  # read entire file into one string

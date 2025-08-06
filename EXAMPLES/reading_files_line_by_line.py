@@ -1,4 +1,4 @@
-FILE_PATH = '../DATA/mary.txt'
+FILE_PATH = '/Users/onemac/Pyhton_basics/20250721JPMC-PM/DATA/mary.txt'
 
 mary_in = open(FILE_PATH)  # open file for reading
 # read file...
